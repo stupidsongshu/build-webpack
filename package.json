@@ -1,6 +1,6 @@
 {
   "name": "build-webpack-pkg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -12,7 +12,12 @@
     "test": "nyc mocha",
     "eslint": "eslint ./lib --fix"
   },
-  "keywords": ["webpack", "react", "mocha", "travis"],
+  "keywords": [
+    "webpack",
+    "react",
+    "mocha",
+    "travis"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
