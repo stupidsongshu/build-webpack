@@ -9,6 +9,7 @@ const mocha = new Mocha({
   timeout: 10000
 })
 
+// 冒烟测试
 rimraf('./dist', () => {
   const prodConfig = require('../../lib/webpack.prod')
   webpack(prodConfig, (err, stats) => {
